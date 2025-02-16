@@ -57,9 +57,9 @@ export default class WebGLApp {
     this.#renderer = this._createRenderer()
     // this.#composer = this._createComposer()
 
-    if (this.#isDevelopment || query('fps')) {
-      this.#stats = this._createStats()
-    }
+    // if (this.#isDevelopment || query('fps')) {
+    //   this.#stats = this._createStats()
+    // }
 
     // if (this.#isDevelopment) {
     //   // this.#statsGpuPanel = this._createStatsGpuPanel()
